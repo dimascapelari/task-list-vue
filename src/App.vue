@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="app">
     <h1>Lista de Tarefas</h1>
     <TasksProgress :progress="progress" />
     <NewTask @taskAdded="addTask" />
@@ -79,7 +79,7 @@ body {
   color: #fff;
 }
 
-#app {
+.app {
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -88,7 +88,7 @@ body {
   height: 100vh;
 }
 
-#app h1 {
+.app h1 {
   margin-bottom: 5px;
   padding-bottom: 15px;
   font-weight: 300;
@@ -96,11 +96,11 @@ body {
 }
 
 @media (max-width: 800px) {
-  #app {
+  .app {
     height: 100%;
   }
 
-  #app h1 {
+  .app h1 {
     font-size: 2.5rem;
     margin-top: 50px;
     padding-bottom: 10px;

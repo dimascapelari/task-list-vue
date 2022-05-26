@@ -23,3 +23,13 @@ Os dados são armazenado no localStorage para ficarem registrados em memória e 
 Como sempre venho evoluindo meus conhecimentos e estudos, resolvi encarar esse desafio de projeto em Vue.JS
 
 Link da aplicação (Deploy): https://task-list-vue-dimas.netlify.app/
+
+## 🛠 Tecnologias:
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Vue.JS]
+- [JavaScript]
+- [HTML5]
+- [CSS3]
+- [VsCode]
